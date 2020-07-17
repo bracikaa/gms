@@ -1,0 +1,246 @@
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.xml
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.pdb
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Objekti.pdb
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojResolveAssemblyReference.cache
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.AboutForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.DodajClanaForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.EvidencijaForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.HomeForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.InformacijeForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.IzvjestajForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.LoginForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ModifikacijaForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PostavkeForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PretraziClanoveForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ProduziClanarinuForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.SlikajForm.resources
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.Cache
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+C:\Users\amer\Documents\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojResolveAssemblyReference.cache
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.AboutForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.DodajClanaForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.EvidencijaForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.HomeForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.InformacijeForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.IzvjestajForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.LoginForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ModifikacijaForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PostavkeForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PretraziClanoveForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ProduziClanarinuForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.SlikajForm.resources
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.Cache
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+D:\26.10.2015\my doc\Visual Studio 2012\Projects\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojResolveAssemblyReference.cache
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.AboutForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.DodajClanaForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.EvidencijaForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.HomeForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.InformacijeForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.IzvjestajForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.LoginForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ModifikacijaForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PostavkeForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PretraziClanoveForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ProduziClanarinuForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.SlikajForm.resources
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.Cache
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\amer\Desktop\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojResolveAssemblyReference.cache
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.AboutForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.DodajClanaForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.EvidencijaForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.HomeForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.InformacijeForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.IzvjestajForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.LoginForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ModifikacijaForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PostavkeForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PretraziClanoveForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ProduziClanarinuForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.SlikajForm.resources
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.Cache
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojResolveAssemblyReference.cache
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.AboutForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.DodajClanaForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.EvidencijaForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.HomeForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.InformacijeForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.IzvjestajForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.LoginForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ModifikacijaForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PostavkeForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.PretraziClanoveForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.ProduziClanarinuForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.SlikajForm.resources
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.Cache
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\mscorlib.dll
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\normidna.nlp
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\normnfc.nlp
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\normnfd.nlp
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\normnfkc.nlp
+C:\Users\amer\Desktop\v2\DRAOS2 Teretana\Teretana Workout\Teretana Workout\bin\Debug\normnfkd.nlp
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.config
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe.manifest
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.application
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.exe
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Teretana Workout.pdb
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csprojAssemblyReference.cache
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana_Workout.Properties.Resources.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.GenerateResource.cache
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.TrustInfo.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe.manifest
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.application
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.csproj.CopyComplete
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.exe
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\Teretana Workout.pdb
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AboutForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.DodajClanaForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.EvidencijaForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.InformacijeForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.IzvjestajForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ModifikacijaForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.PostavkeForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.PretraziClanoveForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ProduziClanarinuForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SlikajForm.resources

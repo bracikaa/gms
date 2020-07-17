@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gymDatabaseModelStoreContainer" CdmEntityContainer="gymDatabaseEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="authLevel" ColumnName="authLevel" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exercises">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Exercise">
+        <MappingFragment StoreEntitySet="Exercise">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Enrolled" ColumnName="Enrolled" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Item">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+          <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
+          <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Measurements">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Measurement">
+        <MappingFragment StoreEntitySet="Measurement">
+          <ScalarProperty Name="RightCalves" ColumnName="RightCalves" />
+          <ScalarProperty Name="LeftCalves" ColumnName="LeftCalves" />
+          <ScalarProperty Name="RightThighs" ColumnName="RightThighs" />
+          <ScalarProperty Name="LeftThighs" ColumnName="LeftThighs" />
+          <ScalarProperty Name="Hips" ColumnName="Hips" />
+          <ScalarProperty Name="Waist" ColumnName="Waist" />
+          <ScalarProperty Name="Chest" ColumnName="Chest" />
+          <ScalarProperty Name="RightForearm" ColumnName="RightForearm" />
+          <ScalarProperty Name="RightBicep" ColumnName="RightBicep" />
+          <ScalarProperty Name="LeftForearm" ColumnName="LeftForearm" />
+          <ScalarProperty Name="LeftBicep" ColumnName="LeftBicep" />
+          <ScalarProperty Name="Shoulders" ColumnName="Shoulders" />
+          <ScalarProperty Name="Neck" ColumnName="Neck" />
+          <ScalarProperty Name="BodyFat" ColumnName="BodyFat" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Member">
+        <MappingFragment StoreEntitySet="Member">
+          <ScalarProperty Name="LastEntrance" ColumnName="LastEntrance" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="NumOfEntrances" ColumnName="NumOfEntrances" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="CardId" ColumnName="CardId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Setting">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="PATH" ColumnName="PATH" />
+          <ScalarProperty Name="COMM" ColumnName="COMM" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reports">
+      <EntityTypeMapping TypeName="gymDatabaseModel.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EntranceDate" ColumnName="EntranceDate" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShopPayments">
+      <EntityTypeMapping TypeName="gymDatabaseModel.ShopPayment">
+        <MappingFragment StoreEntitySet="ShopPayment">
+          <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingEnrollments">
+      <EntityTypeMapping TypeName="gymDatabaseModel.TrainingEnrollment">
+        <MappingFragment StoreEntitySet="TrainingEnrollment">
+          <ScalarProperty Name="ExercisePrice" ColumnName="ExercisePrice" />
+          <ScalarProperty Name="ExerciseName" ColumnName="ExerciseName" />
+          <ScalarProperty Name="ExerciseId" ColumnName="ExerciseId" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EnrollmentDate" ColumnName="EnrollmentDate" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

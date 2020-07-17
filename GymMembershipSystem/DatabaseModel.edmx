@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="gymDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PaymentDate" Type="date" Nullable="false" />
+          <Property Name="ExpirationDate" Type="date" Nullable="false" />
+          <Property Name="Price" Type="float" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="MemberId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="authLevel" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exercise">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="varchar(max)" Nullable="false" />
+          <Property Name="Link" Type="varchar(max)" Nullable="false" />
+          <Property Name="Day" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Time" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Enrolled" Type="int" Nullable="false" />
+          <Property Name="Price" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Items">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ItemName" Type="varchar(max)" Nullable="false" />
+          <Property Name="ItemId" Type="bigint" Nullable="false" />
+          <Property Name="ItemPrice" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+          <Property Name="ItemCount" Type="int" Nullable="false" />
+          <Property Name="ItemDescription" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Measurement">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="Timestamp" Type="datetime" />
+          <Property Name="Height" Type="int" />
+          <Property Name="Weight" Type="int" />
+          <Property Name="BodyFat" Type="numeric" Precision="4" Scale="2" />
+          <Property Name="Neck" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="Shoulders" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="LeftBicep" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="LeftForearm" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="RightBicep" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="RightForearm" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="Chest" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="Waist" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="Hips" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="LeftThighs" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="RightThighs" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="LeftCalves" Type="numeric" Precision="5" Scale="2" />
+          <Property Name="RightCalves" Type="numeric" Precision="5" Scale="2" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
+          <Property Name="CardId" Type="bigint" Nullable="false" />
+          <Property Name="TypeId" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="NumOfEntrances" Type="int" Nullable="false" />
+          <Property Name="Gender" Type="char" MaxLength="10" />
+          <Property Name="LastEntrance" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'gymDatabase.dbo.Report' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Report">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="EntranceDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+          </Key>
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="EntranceDate" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Settings">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="COMM" Type="int" Nullable="false" />
+          <Property Name="PATH" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'gymDatabase.dbo.ShopPayment' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="ShopPayment">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="PaymentDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+            <PropertyRef Name="ItemId" />
+            <PropertyRef Name="ItemName" />
+            <PropertyRef Name="ItemPrice" />
+          </Key>
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="PaymentDate" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ItemId" Type="int" Nullable="false" />
+          <Property Name="ItemName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ItemPrice" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'gymDatabase.dbo.TrainingEnrollment' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TrainingEnrollment">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="EnrollmentDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+            <PropertyRef Name="ExerciseId" />
+            <PropertyRef Name="ExerciseName" />
+            <PropertyRef Name="ExercisePrice" />
+          </Key>
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="EnrollmentDate" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ExerciseId" Type="int" Nullable="false" />
+          <Property Name="ExerciseName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ExercisePrice" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Account_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="Account" Type="Self.Account" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Account">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Measurement_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="Measurement" Type="Self.Measurement" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Measurement">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Report_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="Report" Type="Self.Report" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Report">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShopPayment_Items">
+          <End Role="Items" Type="Self.Items" Multiplicity="1" />
+          <End Role="ShopPayment" Type="Self.ShopPayment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Items">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ShopPayment">
+              <PropertyRef Name="ItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShopPayment_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="ShopPayment" Type="Self.ShopPayment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ShopPayment">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TrainingEnrollment_Exercise">
+          <End Role="Exercise" Type="Self.Exercise" Multiplicity="1" />
+          <End Role="TrainingEnrollment" Type="Self.TrainingEnrollment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercise">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TrainingEnrollment">
+              <PropertyRef Name="ExerciseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TrainingEnrollment_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="TrainingEnrollment" Type="Self.TrainingEnrollment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TrainingEnrollment">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="gymDatabaseModelStoreContainer">
+          <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exercise" EntityType="Self.Exercise" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Measurement" EntityType="Self.Measurement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Settings" EntityType="Self.Settings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Report" EntityType="Self.Report" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[Report].[MemberId] AS [MemberId], 
+[Report].[EntranceDate] AS [EntranceDate], 
+[Report].[Name] AS [Name], 
+[Report].[Surname] AS [Surname]
+FROM [dbo].[Report] AS [Report]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="ShopPayment" EntityType="Self.ShopPayment" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[ShopPayment].[MemberId] AS [MemberId], 
+[ShopPayment].[PaymentDate] AS [PaymentDate], 
+[ShopPayment].[Name] AS [Name], 
+[ShopPayment].[Surname] AS [Surname], 
+[ShopPayment].[ItemId] AS [ItemId], 
+[ShopPayment].[ItemName] AS [ItemName], 
+[ShopPayment].[ItemPrice] AS [ItemPrice]
+FROM [dbo].[ShopPayment] AS [ShopPayment]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TrainingEnrollment" EntityType="Self.TrainingEnrollment" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[TrainingEnrollment].[MemberId] AS [MemberId], 
+[TrainingEnrollment].[EnrollmentDate] AS [EnrollmentDate], 
+[TrainingEnrollment].[Name] AS [Name], 
+[TrainingEnrollment].[Surname] AS [Surname], 
+[TrainingEnrollment].[ExerciseId] AS [ExerciseId], 
+[TrainingEnrollment].[ExerciseName] AS [ExerciseName], 
+[TrainingEnrollment].[ExercisePrice] AS [ExercisePrice]
+FROM [dbo].[TrainingEnrollment] AS [TrainingEnrollment]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Account_Member" Association="Self.FK_Account_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="Account" EntitySet="Account" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Measurement_Member" Association="Self.FK_Measurement_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="Measurement" EntitySet="Measurement" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Report_Member" Association="Self.FK_Report_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="Report" EntitySet="Report" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShopPayment_Items" Association="Self.FK_ShopPayment_Items">
+            <End Role="Items" EntitySet="Items" />
+            <End Role="ShopPayment" EntitySet="ShopPayment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShopPayment_Member" Association="Self.FK_ShopPayment_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="ShopPayment" EntitySet="ShopPayment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TrainingEnrollment_Exercise" Association="Self.FK_TrainingEnrollment_Exercise">
+            <End Role="Exercise" EntitySet="Exercise" />
+            <End Role="TrainingEnrollment" EntitySet="TrainingEnrollment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TrainingEnrollment_Member" Association="Self.FK_TrainingEnrollment_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="TrainingEnrollment" EntitySet="TrainingEnrollment" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="gymDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="gymDatabaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="gymDatabaseModel.Account" />
+          <EntitySet Name="Admins" EntityType="gymDatabaseModel.Admin" />
+          <EntitySet Name="Exercises" EntityType="gymDatabaseModel.Exercise" />
+          <EntitySet Name="Items" EntityType="gymDatabaseModel.Item" />
+          <EntitySet Name="Measurements" EntityType="gymDatabaseModel.Measurement" />
+          <EntitySet Name="Members" EntityType="gymDatabaseModel.Member" />
+          <EntitySet Name="Settings" EntityType="gymDatabaseModel.Setting" />
+          <EntitySet Name="Reports" EntityType="gymDatabaseModel.Report" />
+          <EntitySet Name="ShopPayments" EntityType="gymDatabaseModel.ShopPayment" />
+          <AssociationSet Name="FK_Account_Member" Association="gymDatabaseModel.FK_Account_Member">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="Account" EntitySet="Accounts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShopPayment_Items" Association="gymDatabaseModel.FK_ShopPayment_Items">
+            <End Role="Item" EntitySet="Items" />
+            <End Role="ShopPayment" EntitySet="ShopPayments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Measurement_Member" Association="gymDatabaseModel.FK_Measurement_Member">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="Measurement" EntitySet="Measurements" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Report_Member" Association="gymDatabaseModel.FK_Report_Member">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="Report" EntitySet="Reports" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ShopPayment_Member" Association="gymDatabaseModel.FK_ShopPayment_Member">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="ShopPayment" EntitySet="ShopPayments" />
+          </AssociationSet>
+          <EntitySet Name="TrainingEnrollments" EntityType="gymDatabaseModel.TrainingEnrollment" />
+          <AssociationSet Name="FK_TrainingEnrollment_Exercise" Association="gymDatabaseModel.FK_TrainingEnrollment_Exercise">
+            <End Role="Exercise" EntitySet="Exercises" />
+            <End Role="TrainingEnrollment" EntitySet="TrainingEnrollments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TrainingEnrollment_Member" Association="gymDatabaseModel.FK_TrainingEnrollment_Member">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="TrainingEnrollment" EntitySet="TrainingEnrollments" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ExpirationDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Member" Relationship="gymDatabaseModel.FK_Account_Member" FromRole="Account" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="authLevel" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Exercise">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Link" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Day" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Time" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Enrolled" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="TrainingEnrollments" Relationship="gymDatabaseModel.FK_TrainingEnrollment_Exercise" FromRole="Exercise" ToRole="TrainingEnrollment" />
+        </EntityType>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ItemName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ItemId" Type="Int64" Nullable="false" />
+          <Property Name="ItemPrice" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+          <Property Name="ItemCount" Type="Int32" Nullable="false" />
+          <Property Name="ItemDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ShopPayments" Relationship="gymDatabaseModel.FK_ShopPayment_Items" FromRole="Item" ToRole="ShopPayment" />
+        </EntityType>
+        <EntityType Name="Measurement">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <Property Name="Timestamp" Type="DateTime" Precision="3" />
+          <Property Name="Height" Type="Int32" />
+          <Property Name="Weight" Type="Int32" />
+          <Property Name="BodyFat" Type="Decimal" Precision="4" Scale="2" />
+          <Property Name="Neck" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="Shoulders" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="LeftBicep" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="LeftForearm" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="RightBicep" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="RightForearm" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="Chest" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="Waist" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="Hips" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="LeftThighs" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="RightThighs" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="LeftCalves" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="RightCalves" Type="Decimal" Precision="5" Scale="2" />
+          <NavigationProperty Name="Member" Relationship="gymDatabaseModel.FK_Measurement_Member" FromRole="Measurement" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CardId" Type="Int64" Nullable="false" />
+          <Property Name="TypeId" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="NumOfEntrances" Type="Int32" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="LastEntrance" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Accounts" Relationship="gymDatabaseModel.FK_Account_Member" FromRole="Member" ToRole="Account" />
+          <NavigationProperty Name="Measurements" Relationship="gymDatabaseModel.FK_Measurement_Member" FromRole="Member" ToRole="Measurement" />
+          <NavigationProperty Name="Reports" Relationship="gymDatabaseModel.FK_Report_Member" FromRole="Member" ToRole="Report" />
+          <NavigationProperty Name="ShopPayments" Relationship="gymDatabaseModel.FK_ShopPayment_Member" FromRole="Member" ToRole="ShopPayment" />
+          <NavigationProperty Name="TrainingEnrollments" Relationship="gymDatabaseModel.FK_TrainingEnrollment_Member" FromRole="Member" ToRole="TrainingEnrollment" />
+        </EntityType>
+        <EntityType Name="Setting">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="COMM" Type="Int32" Nullable="false" />
+          <Property Name="PATH" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Report">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="EntranceDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+          </Key>
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <Property Name="EntranceDate" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Member" Relationship="gymDatabaseModel.FK_Report_Member" FromRole="Report" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="ShopPayment">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="PaymentDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+            <PropertyRef Name="ItemId" />
+            <PropertyRef Name="ItemName" />
+            <PropertyRef Name="ItemPrice" />
+          </Key>
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <Property Name="PaymentDate" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ItemId" Type="Int32" Nullable="false" />
+          <Property Name="ItemName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ItemPrice" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+          <NavigationProperty Name="Item" Relationship="gymDatabaseModel.FK_ShopPayment_Items" FromRole="ShopPayment" ToRole="Item" />
+          <NavigationProperty Name="Member" Relationship="gymDatabaseModel.FK_ShopPayment_Member" FromRole="ShopPayment" ToRole="Member" />
+        </EntityType>
+        <Association Name="FK_Account_Member">
+          <End Type="gymDatabaseModel.Member" Role="Member" Multiplicity="1" />
+          <End Type="gymDatabaseModel.Account" Role="Account" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Account">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShopPayment_Items">
+          <End Type="gymDatabaseModel.Item" Role="Item" Multiplicity="1" />
+          <End Type="gymDatabaseModel.ShopPayment" Role="ShopPayment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Item">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ShopPayment">
+              <PropertyRef Name="ItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Measurement_Member">
+          <End Type="gymDatabaseModel.Member" Role="Member" Multiplicity="1" />
+          <End Type="gymDatabaseModel.Measurement" Role="Measurement" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Measurement">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Report_Member">
+          <End Type="gymDatabaseModel.Member" Role="Member" Multiplicity="1" />
+          <End Type="gymDatabaseModel.Report" Role="Report" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Report">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ShopPayment_Member">
+          <End Type="gymDatabaseModel.Member" Role="Member" Multiplicity="1" />
+          <End Type="gymDatabaseModel.ShopPayment" Role="ShopPayment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="ShopPayment">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TrainingEnrollment">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="EnrollmentDate" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Surname" />
+            <PropertyRef Name="ExerciseId" />
+            <PropertyRef Name="ExerciseName" />
+            <PropertyRef Name="ExercisePrice" />
+          </Key>
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <Property Name="EnrollmentDate" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ExerciseId" Type="Int32" Nullable="false" />
+          <Property Name="ExerciseName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ExercisePrice" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+          <NavigationProperty Name="Exercise" Relationship="gymDatabaseModel.FK_TrainingEnrollment_Exercise" FromRole="TrainingEnrollment" ToRole="Exercise" />
+          <NavigationProperty Name="Member" Relationship="gymDatabaseModel.FK_TrainingEnrollment_Member" FromRole="TrainingEnrollment" ToRole="Member" />
+        </EntityType>
+        <Association Name="FK_TrainingEnrollment_Exercise">
+          <End Type="gymDatabaseModel.Exercise" Role="Exercise" Multiplicity="1" />
+          <End Type="gymDatabaseModel.TrainingEnrollment" Role="TrainingEnrollment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Exercise">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TrainingEnrollment">
+              <PropertyRef Name="ExerciseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TrainingEnrollment_Member">
+          <End Type="gymDatabaseModel.Member" Role="Member" Multiplicity="1" />
+          <End Type="gymDatabaseModel.TrainingEnrollment" Role="TrainingEnrollment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TrainingEnrollment">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="gymDatabaseModelStoreContainer" CdmEntityContainer="gymDatabaseEntities">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+                <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="authLevel" ColumnName="authLevel" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Exercises">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Exercise">
+              <MappingFragment StoreEntitySet="Exercise">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Enrolled" ColumnName="Enrolled" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Day" ColumnName="Day" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Items">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Item">
+              <MappingFragment StoreEntitySet="Items">
+                <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+                <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
+                <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+                <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+                <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Measurements">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Measurement">
+              <MappingFragment StoreEntitySet="Measurement">
+                <ScalarProperty Name="RightCalves" ColumnName="RightCalves" />
+                <ScalarProperty Name="LeftCalves" ColumnName="LeftCalves" />
+                <ScalarProperty Name="RightThighs" ColumnName="RightThighs" />
+                <ScalarProperty Name="LeftThighs" ColumnName="LeftThighs" />
+                <ScalarProperty Name="Hips" ColumnName="Hips" />
+                <ScalarProperty Name="Waist" ColumnName="Waist" />
+                <ScalarProperty Name="Chest" ColumnName="Chest" />
+                <ScalarProperty Name="RightForearm" ColumnName="RightForearm" />
+                <ScalarProperty Name="RightBicep" ColumnName="RightBicep" />
+                <ScalarProperty Name="LeftForearm" ColumnName="LeftForearm" />
+                <ScalarProperty Name="LeftBicep" ColumnName="LeftBicep" />
+                <ScalarProperty Name="Shoulders" ColumnName="Shoulders" />
+                <ScalarProperty Name="Neck" ColumnName="Neck" />
+                <ScalarProperty Name="BodyFat" ColumnName="BodyFat" />
+                <ScalarProperty Name="Weight" ColumnName="Weight" />
+                <ScalarProperty Name="Height" ColumnName="Height" />
+                <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Members">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Member">
+              <MappingFragment StoreEntitySet="Member">
+                <ScalarProperty Name="LastEntrance" ColumnName="LastEntrance" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="NumOfEntrances" ColumnName="NumOfEntrances" />
+                <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+                <ScalarProperty Name="CardId" ColumnName="CardId" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Settings">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Setting">
+              <MappingFragment StoreEntitySet="Settings">
+                <ScalarProperty Name="PATH" ColumnName="PATH" />
+                <ScalarProperty Name="COMM" ColumnName="COMM" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Reports">
+            <EntityTypeMapping TypeName="gymDatabaseModel.Report">
+              <MappingFragment StoreEntitySet="Report">
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="EntranceDate" ColumnName="EntranceDate" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ShopPayments">
+            <EntityTypeMapping TypeName="gymDatabaseModel.ShopPayment">
+              <MappingFragment StoreEntitySet="ShopPayment">
+                <ScalarProperty Name="ItemPrice" ColumnName="ItemPrice" />
+                <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+                <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TrainingEnrollments">
+            <EntityTypeMapping TypeName="gymDatabaseModel.TrainingEnrollment">
+              <MappingFragment StoreEntitySet="TrainingEnrollment">
+                <ScalarProperty Name="ExercisePrice" ColumnName="ExercisePrice" />
+                <ScalarProperty Name="ExerciseName" ColumnName="ExerciseName" />
+                <ScalarProperty Name="ExerciseId" ColumnName="ExerciseId" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="EnrollmentDate" ColumnName="EnrollmentDate" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e7a95d36c9674b4f9ef6f9ca9376821a" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="gymDatabaseModel.Account" Width="1.5" PointX="0.625" PointY="4.625" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Admin" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Exercise" Width="1.5" PointX="4.125" PointY="1.75" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Item" Width="1.5" PointX="2.375" PointY="0.5" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Measurement" Width="1.5" PointX="11" PointY="0.625" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Member" Width="1.5" PointX="14.375" PointY="0.5" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Setting" Width="1.5" PointX="0.5" PointY="2.375" />
+        <EntityTypeShape EntityType="gymDatabaseModel.Report" Width="1.5" PointX="12.875" PointY="5.375" />
+        <EntityTypeShape EntityType="gymDatabaseModel.ShopPayment" Width="1.5" PointX="8.125" PointY="0.625" />
+        <AssociationConnector Association="gymDatabaseModel.FK_Account_Member" />
+        <AssociationConnector Association="gymDatabaseModel.FK_ShopPayment_Items" />
+        <AssociationConnector Association="gymDatabaseModel.FK_Measurement_Member" />
+        <AssociationConnector Association="gymDatabaseModel.FK_Report_Member" />
+        <AssociationConnector Association="gymDatabaseModel.FK_ShopPayment_Member" />
+        <EntityTypeShape EntityType="gymDatabaseModel.TrainingEnrollment" Width="1.5" PointX="6.125" PointY="1.75" />
+        <AssociationConnector Association="gymDatabaseModel.FK_TrainingEnrollment_Exercise" />
+        <AssociationConnector Association="gymDatabaseModel.FK_TrainingEnrollment_Member" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

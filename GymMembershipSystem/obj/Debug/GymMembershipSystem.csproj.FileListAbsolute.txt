@@ -1,0 +1,200 @@
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AboutForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ModifikacijaForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ProduziClanarinuForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SlikajForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.GenerateResource.cache
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.CopyComplete
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.config
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.manifest
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.application
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.pdb
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Properties.Resources.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.TrustInfo.xml
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe.manifest
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.application
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.pdb
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AddMemberForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ReportForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.InformationForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SearchMembersForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SettingsForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AccountForm.resources
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csprojAssemblyReference.cache
+C:\Users\mehme\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Forms.MeasurementsForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csprojAssemblyReference.cache
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.config
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AboutForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AddMemberForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Forms.MeasurementsForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ReportForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.InformationForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AccountForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ModifikacijaForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SettingsForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SearchMembersForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ProduziClanarinuForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Properties.Resources.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SlikajForm.resources
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.GenerateResource.cache
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.TrustInfo.xml
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2 v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.CopyComplete
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\baza.mdf
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\baza_log.ldf
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.config
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Controls.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\AForge.Video.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\KorisnickaKontrola.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\Objekti.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\System.Data.dll
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\EntityFramework.xml
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\bin\Debug\itextsharp.xml
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AboutForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AddMemberForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Forms.MeasurementsForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ReportForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.InformationForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.AccountForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ModifikacijaForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SettingsForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SearchMembersForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.ProduziClanarinuForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Properties.Resources.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.SlikajForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.GenerateResource.cache
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.TrustInfo.xml
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csproj.CopyComplete
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.csprojAssemblyReference.cache
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Forms.MeasurementHistoryForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\Teretana Workout\Teretana Workout\obj\Debug\GymMembershipSystem.Forms.ExerciseListForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csprojAssemblyReference.cache
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.AboutForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.AddMemberForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.ExerciseListForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.MeasurementHistoryForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.MeasurementsForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.ReportForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.InformationForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.AccountForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.ModifikacijaForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.SettingsForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.SearchMembersForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.ProduziClanarinuForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Properties.Resources.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.SlikajForm.resources
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csproj.GenerateResource.cache
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\baza.mdf
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\baza_log.ldf
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe.config
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Controls.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Video.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\EntityFramework.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\itextsharp.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\KorisnickaKontrola.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\Objekti.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\System.Data.dll
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\EntityFramework.xml
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\bin\Debug\itextsharp.xml
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.TrustInfo.xml
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\Draos2v2\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csproj.CopyComplete
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe.config
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Controls.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\AForge.Video.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\EntityFramework.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\itextsharp.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\System.Data.dll
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\EntityFramework.xml
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\bin\Debug\itextsharp.xml
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.AddMemberForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.ExerciseListForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.MeasurementHistoryForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.MeasurementsForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.HomeForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.InformationForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.AccountForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.LoginForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.SettingsForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.SearchMembersForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Properties.Resources.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csproj.GenerateResource.cache
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.TrustInfo.xml
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.exe.manifest
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.application
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csproj.CopyComplete
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.exe
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.pdb
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.ExtendMemberShipForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.ShopForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.Forms.ShopItemForm.resources
+C:\Users\Mehmed\Desktop\GymMembershipSystem\GymMembershipSystem\GymMembershipSystem\obj\Debug\GymMembershipSystem.csprojAssemblyReference.cache
