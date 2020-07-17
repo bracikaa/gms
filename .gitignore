@@ -1,3 +1,5 @@
-./packages
-.vs
-GymMembershipSystem/bin
+.packages/
+.vs/
+GymMembershipSystem/bin/
+GymMembersshipSystem/publish/
+GymMembersshipSystem/Reference/
